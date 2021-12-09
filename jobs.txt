@@ -1,3 +1,4 @@
 Software Developer,Internship,08:15,12:55,25.5
 Data Analyst,Full-Time,09:15,15:30,20.0
 Cyber-Security Analyst,Part-Time,10:15,15:15,22.25
+Data scientist,Full-Time,08:00,16:00,25.0

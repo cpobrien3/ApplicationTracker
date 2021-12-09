@@ -109,8 +109,8 @@ public class AddApplicationJPanel extends JPanel {
 			form.add(jobTextField, "4, 12, 5, 1, fill, default");
 
 			//Input for what candidate to apply to
-			PriorityQueue<String> allCanidatesList = formatCanidatesListToString(allCanidates);
-			JLabel lblCanidate = new JLabel("Canidate:");
+			PriorityQueue<String> allCanidatesList = formatCandidatesListToString(allCanidates);
+			JLabel lblCanidate = new JLabel("Candidate:");
 			form.add(lblCanidate, "2, 14, right, default");
 			canidateTextField = new JComboBox(allCanidatesList.toArray());
 			form.add(canidateTextField, "4, 14, 5, 1, fill, default");
@@ -138,7 +138,7 @@ public class AddApplicationJPanel extends JPanel {
 	 * @param allCanidates2
 	 * @return - The PriorityQueue edited
 	 */
-	private PriorityQueue<String> formatCanidatesListToString(LinkedList<Candidate> allCanidates2) {
+	private PriorityQueue<String> formatCandidatesListToString(LinkedList<Candidate> allCanidates2) {
 		PriorityQueue<String> allCanidatesFormatted = new PriorityQueue<String>();
 		for (Candidate a : allCanidates) {
 			allCanidatesFormatted.add(a.getfName() + " " + a.getlName() + " Age: " + a.getAge() + "  Address: " + a.getAddress());
@@ -255,6 +255,8 @@ public class AddApplicationJPanel extends JPanel {
 					allApplications.add(applicationToAdd);
 
 					applicationFileHelper.writeFile(allApplications);
+					
+					clearAllFields();
 				} catch (Exception f) {
 					popUpErrorMessage("Input for Years Experience and Year of Education must be an integer number and can't be blank.");
 				}
@@ -270,7 +272,7 @@ public class AddApplicationJPanel extends JPanel {
 		}
 
 		/**
-		 * Cleats each text field
+		 * Clears each text field
 		 */
 		private void clearAllFields() {
 			textYearsEducation.setText("");

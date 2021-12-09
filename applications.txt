@@ -1,3 +1,3 @@
-Job [position=Software Developer, jobType=Internship, startTime=08:15, endTime=12:55, hourlywage=25.5]|Canidate [fName=Christian, lName=O'Brien, age=22, adrress=123 Main Street]|1|4
-Job [position=Data Analyst, jobType=Full-Time, startTime=09:15, endTime=15:30, hourlywage=20.0]|Canidate [fName=Alex, lName=Johnson, age=25, adrress=Maple Road]|3|5
-Job [position=Cyber-Security Analyst, jobType=Part-Time, startTime=10:15, endTime=15:15, hourlywage=22.25]|Canidate [fName=Billy, lName=White, age=32, adrress=East Ave]|2|2
+Job [position=Software Developer, jobType=Internship, startTime=08:15, endTime=12:55, hourlywage=25.5]|Canidate [FirstName=Christian, LastName=O'Brien, age=22, address=123 Main Street]|1|4
+Job [position=Data Analyst, jobType=Full-Time, startTime=09:15, endTime=15:30, hourlywage=20.0]|Canidate [FirstName=Alex, LastName=Johnson, age=25, address=Maple Road]|3|5
+Job [position=Data scientist, jobType=Full-Time, startTime=08:00, endTime=16:00, hourlywage=25.0]|Canidate [FirstName=Zach , LastName=Williams, age=22, address=999 Elm Street]|2|2

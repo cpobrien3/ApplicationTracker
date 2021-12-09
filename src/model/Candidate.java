@@ -58,7 +58,7 @@ public class Candidate {
 	//Override toString() method
 	@Override
 	public String toString() {
-		return "Canidate [fName=" + fName + ", lName=" + lName + ", age=" + age + ", adrress=" + address + "]";
+		return "Canidate [FirstName=" + fName + ", LastName=" + lName + ", age=" + age + ", address=" + address + "]";
 	}
 
 	
